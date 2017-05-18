@@ -16,8 +16,6 @@ class Sphere(object):
         return 4.0 * 3.1416 * self.radius ** 2
 
     def volume(self):
-        # *** STEP 4 ***
-        # uncomment the following line
         return 4/3 * 3.1416 * self.radius ** 3
 
     def diameter(self):
